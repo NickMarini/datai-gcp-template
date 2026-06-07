@@ -2,9 +2,9 @@ name: Deploy Prod
 
 on:
   # Auto-deploy prod on every push to main
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
   # Also runnable manually from the Actions tab
   workflow_dispatch:
 
